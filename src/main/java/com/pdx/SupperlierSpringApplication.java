@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.pdx.mapper")
+@MapperScan(basePackages = "com.pdx.mapper")
 public class SupperlierSpringApplication {
 
     public static void main(String[] args) {
