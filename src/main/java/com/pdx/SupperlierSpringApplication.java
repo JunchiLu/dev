@@ -11,7 +11,7 @@ public class SupperlierSpringApplication {
     public static void main(String[] args) {
 
         SpringApplication.run(SupperlierSpringApplication.class, args);
-        System.out.println("sdfa");
+        System.out.println("sdfa");System.out.println("sdfa");System.out.println("sdfa");
     }
 
 }
